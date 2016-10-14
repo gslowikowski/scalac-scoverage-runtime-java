@@ -39,7 +39,7 @@ public class Invoker$ {
      * @param id the id of the statement that was invoked
      * @param dataDir the directory where the measurement data is held
      */
-    public static void invoked(final int id, final String dataDir)throws IOException  {
+    public static void invoked(final int id, final String dataDir) throws IOException  {
         String idStr = Integer.toString(id);
         String key = new String(dataDir + idStr);
 
